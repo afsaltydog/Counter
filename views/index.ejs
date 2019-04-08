@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 	<title>Trivia</title>
+   <!--<script type="text/javascript" src="jsHuntingGithub.js" defer></script>-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+    <h3 class="title">
+      Counter
+    </h3>
+
+    <div class="row">
+      <div class="columns medium-6">
+        <p class="subheader"><small><%= count %> times</small></p>
+        <form action="/plustwo" method="get">
+          <button class="button" type="submit">+2</button>
+          <button class="button" type="submit"formaction="/clear">Reset</button>
+        </form>
+      </div>
+    </div>
+    <hr>
+  </div>
+</body>
+</html>
